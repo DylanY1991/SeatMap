@@ -31,7 +31,7 @@ Here're the technologies used for this demo:
  - [jQuery](https://jquery.com/)
    - Support AngularJs
    - DOM effects 
- - [note.js](https://ned.im/noty/?ref=readme#/)
+ - [noty.js](https://ned.im/noty/?ref=readme#/)
    - Display message
    - Here used to show warning when user selects a seat already token
    
