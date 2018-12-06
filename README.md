@@ -2,6 +2,7 @@
 A front end implement of seat map
 
 
+
 ### Installation and Running-example
 
 To have a running example on your local PC, here's the step you can follow easily:
@@ -17,26 +18,22 @@ To have a running example on your local PC, here's the step you can follow easil
 ### Technology
 
 Here're the technologies used for this demo:
- - Http-server
+ - [Http-server](https://www.npmjs.com/package/http-server)
    - Local Development and testing.
    - Here used to support reading/importing local data/files
-   - More: https://www.npmjs.com/package/http-server 
- - AngularJs
+ - [AngularJs](https://angularjs.org/)
    - The oldest version of Angular!
    - What I use for daily work
    - Fast for simple tasks
- - Angular-route
+ - [Angular-route](https://www.npmjs.com/package/angular-route)
    - Route control.
    - Here used to limit urls
-   - More: https://www.npmjs.com/package/angular-route 
- - jQuery
+ - [jQuery](https://jquery.com/)
    - Support AngularJs
-   - DOM effects
-   - More: https://jquery.com/ 
- - note.js
+   - DOM effects 
+ - [note.js](https://ned.im/noty/?ref=readme#/)
    - Display message
    - Here used to show warning when user selects a seat already token
-   - More: https://ned.im/noty/?ref=readme#/ 
    
 ### Suggestions for Future Improvement
 
