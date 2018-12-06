@@ -1,0 +1,14 @@
+{
+  "name": "seat-map",
+  "version": "1.0.0",
+  "description": "A front end implement of seat map",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yuan Yao",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}

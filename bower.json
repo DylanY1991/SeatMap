@@ -1,0 +1,17 @@
+{
+  "name": "seat-map",
+  "description": "A front end implement of seat map",
+  "main": "index.js",
+  "authors": [
+    "Yuan Yao"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "angular": "^1.7.5",
+    "angular-route": "^1.7.5",
+    "noty": "^3.1.4"
+  }
+}

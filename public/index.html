@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en" ng-app="appStart">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Yuan Yao">
+        <meta name="description" content="Seat Map for Lola Interview">
+        <base href="/">
+        <link rel="stylesheet" href="assets/libs/noty/lib/noty.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+        <script src="assets/libs/noty/lib/noty.js"></script>
+        <script src="assets/js/script.js"></script>
+    </head>
+    <body>
+        <!-- include components -->
+        <ng-include src="'app/components/seatMap/seatMapView.html'"></ng-include>
+
+        <!-- include scripts: angular, angular-route, modules, routes -->
+        <script src="assets/libs/angular/angular.min.js"></script>
+        <script src="assets/libs/angular-route/angular-route.min.js"></script>
+        <script src="app/app.routes.js"></script>
+        <script src="app/app.module.js"></script>
+        
+        <!-- conponent controls -->
+        <script src="app/components/seatMap/seatMapController.js"></script>
+    </body>
+</html>

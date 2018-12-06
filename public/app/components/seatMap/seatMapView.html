@@ -1,0 +1,43 @@
+<div class="seatMap-container" ng-controller="seatMapController as seatMap">
+    <!-- Statistics -->
+    <div class="statistics">
+        <div>
+            <p class="seatMap-header">Seat Map</p>
+        </div>
+        <div>
+            <span class="seat-icon seat-total"></span> Total seats: {{seatMap.data.total}}
+        </div>
+        <div>
+            <span class="seat-icon seat-occupied"></span> Occupied: {{seatMap.data.occupied}}
+        </div>
+        <div>
+            <span class="seat-icon seat-avail-first"></span> Available (First): {{seatMap.data.availFirst}}
+        </div>
+        <div>
+            <span class="seat-icon seat-avail-business"></span> Available (Business): {{seatMap.data.availBusiness}}
+        </div>
+        <div>
+            <span class="seat-icon seat-avail-eco"></span> Available (Economy): {{seatMap.data.availEco}}
+        </div>
+        <div>
+            <span class="seat-icon seat-selected"></span> Your selection: <span ng-class="seatMap.data.selectedCabin">{{seatMap.data.selection}}</span>
+        </div>
+    </div>
+
+    <!-- All seats -->
+    <div class="airplane">
+        <!-- Each Cabin -->
+        <div class="cabin" ng-repeat="cabin in seatMap.cabins">
+            <!-- Each Row -->
+            <div class="row" ng-cloak ng-repeat="rows in cabin | orderBy: 'row.row'">
+                <!-- Each Row -->
+                <div class="seat" 
+                    ng-class="seatMap.setSeatDomClass(seat)"
+                    ng-repeat="seat in rows | orderBy: 'seat'"
+                    ng-click="seatMap.selectSeat(seat, $event)">
+                    {{seatMap.displaySesat(seat)}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
