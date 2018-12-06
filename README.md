@@ -19,26 +19,26 @@ To have a running example on your local PC, here's the step you can follow easil
 
 Here're the technologies used for this demo:
  - [Http-server](https://www.npmjs.com/package/http-server)
-   - Local Development and testing.
+   - Local Development and testing
    - Here used to support reading/importing local data/files
  - [AngularJs](https://angularjs.org/)
    - The oldest version of Angular!
    - What I use for daily work
    - Fast for simple tasks
  - [Angular-route](https://www.npmjs.com/package/angular-route)
-   - Route control.
-   - Here used to limit urls
+   - Route control
+   - Here used to limit URLs
  - [jQuery](https://jquery.com/)
    - Support AngularJs
    - DOM effects 
  - [noty.js](https://ned.im/noty/?ref=readme#/)
    - Display message
-   - Here used to show warning when user selects a seat already token
+   - Here used to show warnings when user selects a seat already token
    
 ### Suggestions for Future Improvement
 
  - UI improvement
- - Repsonsive design
+ - Responsive design
  - Session storage for user selections
- - Socket to allow multi-user interation
+ - Socket to allow multi-user interations
  
